@@ -1,2 +1,2 @@
 # computing-fundamentals
-Code samples and class materials 
+Some related code samples and class materials 
