@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+using namespace std;
 
 int main() {
     int hostA = 0b11000000101010000000000000000010;
@@ -11,9 +11,9 @@ int main() {
     int netA = hostA ^ maskA;
     int netB = hostB ^ maskB;
     int netC = hostC ^ maskC;
-    if (netA == netB) printf("hostA e hostB na mesma rede");
-    if (netA == netC) printf("hostA e hostC na mesma rede");
-    else printf("hostA e hostC em redes diferentes");
-system("pause");
+    if (netA == netB) cout << "hostA e hostB na mesma rede" << endl;
+    if (netA == netC) cout << "hostA e hostC na mesma rede" << endl;
+    else cout << "hostA e hostC em redes diferentes" << endl;
+
 return 0;
 }
