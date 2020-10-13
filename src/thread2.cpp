@@ -23,7 +23,7 @@ void doY () {
     this_thread::sleep_for(chrono::milliseconds(id(dre)));
     y += i;
   }
-  y += x; // problem for shared resources
+  //y += x; // does not work - problem for shared resources
 }
 
 int main() {
