@@ -1,7 +1,5 @@
 #include <iostream>
 #include <cstdlib> // for system
-#include <string>
-#include <cstring>
 
 using namespace std;
 
