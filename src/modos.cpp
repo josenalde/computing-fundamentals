@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct Modes {
+struct Modos {
     int imediato;
     int *direto;
     int **indireto;
@@ -9,7 +9,7 @@ struct Modes {
 };
 
 int main() {
-    Modes t;
+    Modos t;
     int instData = 5;
     t.imediato = instData; cout << "End. Imediato: " 
                          << t.imediato << endl;
