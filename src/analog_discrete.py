@@ -17,7 +17,7 @@ plt.subplot(2,1,1)
 plt.plot(t1,ft, 'b', t2, ft2, 'r') #see both curves
 plt.grid()
 plt.subplot(2,1,2)
-plt.stem(t1,ft1) #see individual plots (points)
+plt.stem(t1,ft) #see individual plots (points)
 #plt.stem(t2,ft2) #see individual plots (points). Comment previous line
 plt.grid()
 plt.show()
